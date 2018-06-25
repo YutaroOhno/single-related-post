@@ -103,27 +103,37 @@ function post_css($headers){
           @media screen and (min-width: 320px) {
             .content {
               width: 150px;
+              margin-top: -15px;
+            }
+
+            .content p {
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
             }
           }
 
           @media screen and (min-width:480px) {
             .content {
-              width: 250px;
+              width: 350px;
+              margin-top: -15px;
             }
           }
 
           @media screen and (min-width:768px) {
             .content {
-              width: 220px;
-            }  
+              width: 500px;
+              margin-top: -15px;
+            }
           }
   
           @media screen and (min-width:1024px) {
             .content {
-              width: 300px;
+              width: 500px;
+              margin-top: -15px;
             }
           }
-
 
        </style>
 EOS;
