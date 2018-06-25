@@ -76,6 +76,7 @@ function post_css($headers){
             float: left;
             margin: 10px 10px 10px 20px;
           }  
+        
           .postLink img{
             margin: 20px;
             float: left;
@@ -93,16 +94,15 @@ function post_css($headers){
           }
 
           .title {
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
             overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
           }
 
 
           @media screen and (min-width: 320px) {
             .content {
-              width: 150px;
+              width: 160px;
               margin-top: -15px;
             }
 
@@ -116,7 +116,7 @@ function post_css($headers){
 
           @media screen and (min-width:480px) {
             .content {
-              width: 350px;
+              width: 245px;
               margin-top: -15px;
             }
           }
@@ -127,11 +127,23 @@ function post_css($headers){
               margin-top: -15px;
             }
           }
+
+          @media screen and (min-width:992px) {
+          .content {
+            width: 300px;
+            margin-top: -15px;
+          }
   
           @media screen and (min-width:1024px) {
             .content {
-              width: 500px;
+              width: 300px;
               margin-top: -15px;
+            }
+          }
+
+          @media screen and (min-width:1171px) {
+            .content {
+              width: 500px;
             }
           }
 
