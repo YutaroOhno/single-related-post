@@ -111,7 +111,7 @@ function post_css($headers){
            /* テンプレートとの詳細度の関係により、一発指定しない  */
             .content .title {
               font-size: 10px;
-              margin-top: 2%;
+              margin-top: 15%;
             }
 
             .content {
