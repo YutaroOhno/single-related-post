@@ -103,7 +103,7 @@ function post_css($headers){
           }
 
 
-          @media screen and (min-width: 483px) {
+          @media screen and (max-width: 483px) {
             .title:before {
               font-size: 5px;
             }
