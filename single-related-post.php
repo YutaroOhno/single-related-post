@@ -113,7 +113,7 @@ function post_css($headers){
             }
 
             .content {
-              width: 65%;
+              width: 55%;
             }
           } 
 
