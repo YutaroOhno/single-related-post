@@ -105,12 +105,13 @@ function post_css($headers){
 
           @media screen and (max-width: 483px) {
             .title:before {
-              font-size: 8px;
+              font-size: 10px;
             }
 
            /* テンプレートとの詳細度の関係により、一発指定しない  */
             .content .title {
-              font-size: 8px;
+              font-size: 10px;
+              margin-top: 2%;
             }
 
             .content {
