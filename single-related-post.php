@@ -105,15 +105,15 @@ function post_css($headers){
 
           @media screen and (max-width: 483px) {
             .title:before {
-              font-size: 5px;
+              font-size: 8px;
             }
 
             .title {
-              font-size: 12px;
+              font-size: 8px;
             }
 
             .content {
-              width: 30%;
+              width: 60%;
             }
           } 
 
