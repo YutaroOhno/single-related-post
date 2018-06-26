@@ -108,9 +108,9 @@ function post_css($headers){
               font-size: 8px;
             }
 
-            .title {
+           /* テンプレートとの詳細度の関係により、一発指定しない  */
+            .content .title {
               font-size: 8px;
-              margin-top: 0;
             }
 
             .content {
