@@ -44,7 +44,6 @@ function create_related_field($atts) {
         {$img_src}
         <div class="content">
           <h4 class="title">{$post->post_title}</h4>
-          <p>{$contents}</p><div></div>
         </div>
       </a>
     </div>
@@ -74,12 +73,14 @@ function post_css($headers){
           
           .content {
             float: left;
-            margin: 10px 10px 10px 20px;
+            margin: 0px 10 10px 20px;
+            width: 75%;
           }  
         
           .postLink img{
             margin: 20px;
             float: left;
+            width: 15%;
            }
 
           .title::before {
@@ -94,58 +95,27 @@ function post_css($headers){
           }
 
           .title {
-            overflow: hidden;
-            white-space: nowrap;
-            text-overflow: ellipsis;
-          }
-
-
-          @media screen and (min-width: 320px) {
-            .content {
-              width: 160px;
-              margin-top: -15px;
-            }
-
-            .content p {
+            margin-top: 10%;
               display: -webkit-box;
               -webkit-box-orient: vertical;
               -webkit-line-clamp: 2;
               overflow: hidden;
-            }
           }
 
-          @media screen and (min-width:480px) {
-            .content {
-              width: 245px;
-              margin-top: -15px;
-            }
-          }
 
-          @media screen and (min-width:768px) {
-            .content {
-              width: 500px;
-              margin-top: -15px;
+          @media screen and (min-width: 483px) {
+            .title:before {
+              font-size: 5px;
             }
-          }
 
-          @media screen and (min-width:992px) {
-          .content {
-            width: 300px;
-            margin-top: -15px;
-          }
-  
-          @media screen and (min-width:1024px) {
-            .content {
-              width: 300px;
-              margin-top: -15px;
+            .title {
+              font-size: 12px;
             }
-          }
 
-          @media screen and (min-width:1171px) {
             .content {
-              width: 500px;
+              width: 65%;
             }
-          }
+          } 
 
        </style>
 EOS;
