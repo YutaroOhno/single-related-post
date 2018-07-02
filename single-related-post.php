@@ -106,7 +106,7 @@ function post_css($headers){
           @media screen and (max-width: 483px) {
 
             .postLink {
-              margin: 0;
+              margin: 0 0 5px 0;
             }
 
             .postLink img {
