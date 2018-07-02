@@ -105,6 +105,10 @@ function post_css($headers){
 
           @media screen and (max-width: 483px) {
 
+            .postLink {
+              margin: 0;
+            }
+
             .postLink img {
               margin: 10px; 
             }            
@@ -116,7 +120,7 @@ function post_css($headers){
 
            /* テンプレートとの詳細度の関係により、一発指定しない  */
             .content .title {
-              font-size: 12px;
+              font-size: 14px;
               margin-top: 5%;
               padding-top: 4px;
             }
